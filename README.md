@@ -1,2 +1,2 @@
 # Project-X
-# This is a colaboration project with Mr Adebayo
+# This is a collaboration project with Mr Adebayo
