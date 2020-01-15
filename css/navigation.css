@@ -45,12 +45,14 @@ strong{
     margin:20px;
     padding: 20px;
     width:20px;
+    float: right;
 
 }
 
-.navigation_container__extras a{
-    margin: 0;
-    padding: 0px;
+.navigation_container__extras a p{
+    margin: 20px;
+    padding: 20px;
+    float: left;
 }
 
 ul{
