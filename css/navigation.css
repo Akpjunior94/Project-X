@@ -50,7 +50,7 @@ strong{
 }
 
 .navigation_container__extras img:hover{
-    background-color: red;
+    color: red;
 }
 
 .navigation_container__extras a p{
@@ -78,6 +78,14 @@ a{
     text-decoration: none;
 }
 
-p:hover{
-   background-color: #ff0000;
+.home-links a:hover{
+   color: #ff0000;
+}
+
+.home-links2 img:hover{
+    background-color: #ff0000;
+}
+
+.shop a:hover{
+    color: #ff0000;
 }
