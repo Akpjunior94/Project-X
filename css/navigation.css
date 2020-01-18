@@ -77,10 +77,6 @@ a{
    color: #ff0000;
 }
 
-.home-links2 img:hover{
-    background-color: #ff0000;
-}
-
 .shop{
     color: #00ff;
     float: left;
@@ -88,6 +84,18 @@ a{
     margin: 20px;
 }
 
-.navigation_container__extras .shop a:hover{
-    color: red;
-}
+.icon img:hover {
+    fill: #DA4567;
+  }
+
+  .main{
+      background-color: grey;
+      width:52%;
+      margin: auto;
+      height:700px;
+  }
+
+  .main_heading{
+      background-color: yellow;
+     
+  } 
