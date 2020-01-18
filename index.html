@@ -3,32 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <title>SANISWISS</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/navigation.css">
 </head>
 <body>
   <!--  Navigation-->
   <header class="navigation_container">
-    <div class="navigation_container__image">
-      <a href="#"><h1>Sani<strong>SWISS</strong></h1></a>
-    </div>
+      <h1><a href="#">Sani<span>SWISS</span></a></h1>
 
-    <nav class="navigation_container__navigation">
+    <nav>
       <ul>
-        <li><a href="#">+ HOME</a></li>
-        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#"><i class="fa fa-plus" style="color:red;" aria-hidden="true"></i>
+          HOME</a></li>
+        <li class="menu_bar"><a href="#">PRODUCTS</a><i class="fa fa-angle-down" style="position:relative;left:10px" aria-hidden="true"></i>
+          <ul class="products_sub_menu">
+            <li><a href="#">MEDICAL</a></li>
+            <li><a href="#">DENTAL</a></li>
+            <li><a href="#">OTHER</a></li>
+          </ul>
+        </li>
         <li><a href="#">CHALLENGES</a></li>
         <li><a href="#">COMPANY</a></li>
       </ul>
     </nav>
+  
 
-    <div class="navigation_container__extras">
-      <a href="#"><p>SHOP</p></a>
-      <a href="#"><img src="./img/search_icon.png" alt="search_icon"></a>
-      <a href="#"><img src="./img/message_icon.png" alt="message_icon"></a>
-
+    <!--<div class="navigation_container__extras">
+     <div><a href="#">SHOP</a></p></div><p>
+     <a href="#"><img src="./img/search_icon.png" alt="search_icon"></a>
+     <a href="#"><img src="./img/message_icon.png" alt="message_icon"></a> 
+     <div>
+      <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
     </div>
 
-  </header>
+    </div>-->
+
+    <div>
+      <ul>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#"><i class="fa fa-search fa" aria-hidden="true"></i></a></li>
+        
+      </ul>
+     
+    </div>
+    
+  
+     
+      <div class="message_icon">
+        <a href="#"><i class="fa fa-envelope-o fa-4x" style="color:grey;" aria-hidden="true"></a></i>
+      </div>
+  
+  
+    
+    </header>
+
 </body>
 </html>
