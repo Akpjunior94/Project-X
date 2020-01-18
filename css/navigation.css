@@ -22,7 +22,7 @@ strong{
     font-family: serif;
     color: gray;
     margin:20px;
-    padding: 15px;
+    padding: 10px;
 
 
 }
@@ -43,9 +43,10 @@ strong{
 
 .navigation_container__extras img{
     margin:20px;
-    padding: 20px;
+    padding: 15px;
     width:20px;
-    float: right;
+    float: left;
+    
 
 }
 
@@ -53,15 +54,10 @@ strong{
     color: red;
 }
 
-.navigation_container__extras a p{
-    margin: 20px;
-    padding: 20px;
-    float: left;
-}
 
 ul{
     margin: 20px;
-    padding: 20px;
+    padding: 15px;
     display:flex;
     
     
@@ -71,7 +67,6 @@ li{
     list-style-type: none;
     margin: 0 2vw;
     
-
 }
 
 a{
@@ -86,6 +81,13 @@ a{
     background-color: #ff0000;
 }
 
-.shop a:hover{
-    color: #ff0000;
+.shop{
+    color: #00ff;
+    float: left;
+    padding: 15px;
+    margin: 20px;
+}
+
+.navigation_container__extras .shop a:hover{
+    color: red;
 }
