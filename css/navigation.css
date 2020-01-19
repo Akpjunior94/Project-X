@@ -47,6 +47,7 @@ strong{
     padding: 1.5rem;
     list-style-type: none;
     margin: 0 2vw;
+    flex:auto;
     
 }
 
@@ -86,4 +87,53 @@ strong{
 a{
     text-decoration: none;
 }
+
+/*Responsiveness*/ /*
+@media screen and (min-width: 700px) {
+    navigation_container__navigation ul{
+        flex-direction: column;    
+        justify-content: center;
+    }  
+    navigation_container__navigation ul li{
+        text-align: center;
+        flex: 1 1 0;
+    }
+}*/
+
+/*main content*/
+#video_container{
+    width:52%;
+    margin: auto;
+    height:700px;
+    background-color: white;
+    border-bottom: 2px solid grey;
+    font-family: Helvetica;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(207, 49, 49);
+}
+
+#video_container h1{
+    position: relative;
+    bottom:800px;
+    font-weight: normal;
+    color: black;
+    
+}
+
+#video_container p{
+    position: relative;
+    bottom: 840px;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.section-solutions{
+    background: red;
+    width: 50%;
+    align-items: 
+}
+
+
+
 
