@@ -49,6 +49,10 @@ strong{
 
 }
 
+.navigation_container__extras img:hover{
+    background-color: red;
+}
+
 .navigation_container__extras a p{
     margin: 20px;
     padding: 20px;
@@ -72,4 +76,8 @@ li{
 
 a{
     text-decoration: none;
+}
+
+p:hover{
+   background-color: #ff0000;
 }
