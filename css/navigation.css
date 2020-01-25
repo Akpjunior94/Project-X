@@ -303,8 +303,27 @@ li{
     margin: 40px 0;
 }
 
-.about_text{
+.about_text p{
+    width: 25%;   
 
+}
+
+span{
+    background-color: #DA0009;
+    color: white;
+    text-shadow: none;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    text-align: center;
+    font: 700 12px/5em "Muli",sans-serif;
+    line-height: 0.12rem;
+
+    
+}
+
+.read{
+    font-size: 24px;
 }
 
 .about_image{
