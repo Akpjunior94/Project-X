@@ -296,3 +296,19 @@ li{
     padding: 2px;
 }
 
+/*about_page*/
+.about_page{
+    display:flex;
+    width:100%;
+    margin: 40px 0;
+}
+
+.about_text{
+
+}
+
+.about_image{
+    background-image: url(../img/ABOUT-1920x975.jpg);
+    width: 1920px;
+    height: 975px;
+}
