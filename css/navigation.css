@@ -349,3 +349,9 @@ span{
     position: absolute;
     left: 600px;
 }
+
+.about_image p{
+    background-color: #fff;
+    display: block;
+    width: 100px;
+}
