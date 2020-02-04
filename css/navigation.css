@@ -228,7 +228,7 @@ a{
     background-image: url(../img/dental.png);
     width: 279.85px;
     height: 413.683px;
-    background-color: lightgrey;
+    background-color: rgb(246, 246, 246);
     margin: 30px 30px;
     position: relative;
 
@@ -238,7 +238,7 @@ a{
     background-image: url(../img/medical.png);
     width: 279.85px;
     height: 413.683px;
-    background-color: lightgrey;
+    background-color: rgb(246, 246, 246);
     margin: 30px 30px;
     position: relative;
 }
@@ -247,7 +247,7 @@ a{
     background-image: url(../img/other.png);
     width: 279.85px;
     height: 413.683px;
-    background-color: lightgrey;
+    background-color: rgb(246, 246, 246);
     margin: 30px 30px;
     position: relative;
 }
