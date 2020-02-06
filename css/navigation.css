@@ -348,12 +348,6 @@ span{
   
 }
 
-a span:hover{
-    background-color: red;
-    transition: transform 0.2s cubic-bezier(.645,.045,.355,1),
-    -webkit-transform 0.2s cubic-bezier(.645,.045,.355,1);
-}
-
 .image-container{
     background-image: url(../img/foot-cta-2-1920x686.jpg);
     width: 1000px;
@@ -372,6 +366,8 @@ a span:hover{
 .info-text h2{
     text-transform: uppercase;
     font-size: 45px;
+    color: #868786;
+    font-weight: lighter;
 }
 
 .contact_us{
@@ -405,5 +401,9 @@ a span:hover{
     display: inline-block;
     padding-left: 100%;
     -webkit-animation: scroll 10s infinite linear;
+}
+
+.contact_container{
+    display: flex;
 }
 
