@@ -291,7 +291,7 @@ a{
 .about_text__container{
     width: 24.0%;
     height: 100%;
-    margin: 30px;
+    margin: 30px 30px;
     
 }
 
@@ -329,11 +329,22 @@ span{
 }
 
 .about_image{
-   margin-top: 20px;
+   margin-top: 40px;
+   position: relative;
     
 }
 
 .about_image_text{
+    position: absolute;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 1.98em;
+    text-transform: uppercase;
+    color: #868786;
+    font-weight: lighter;
+    bottom: 5px;
+    left: 90px;
+    padding: 0 30px;
   
 }
 
