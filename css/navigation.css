@@ -405,5 +405,47 @@ span{
 
 .contact_container{
     display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    margin-top: 30px;
+    
 }
+
+.location_icon{
+    width: calc(28px/1rem);
+    height: calc(28px/1rem);
+    
+}
+
+.svg_icon{
+    width: calc(28px/1rem);
+    height: calc(28px/1rem);
+
+}
+
+.border{
+    margin: 0;
+    padding: 0;
+}
+
+.item_icon{
+    /* align-self: flex-start; */
+    /* position: relative; */
+    border: 2px grey solid ;
+    flex-basis: 20%;
+    display: flex;
+    align-items: flex-start;
+    
+
+}
+
+.position{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
 
