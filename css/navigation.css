@@ -407,8 +407,8 @@ span{
     display: flex;
     justify-content: space-between;
     padding: 0 15%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    
     
 }
 
@@ -452,9 +452,9 @@ span{
 .foot_nav__container{
     display: flex;
     justify-content: space-between;
-    /* padding: 0 12%; */
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 0 12%;
+    margin-top: 40px;
+    
     
     
 }
@@ -471,12 +471,26 @@ span{
 .nav_icons{
     display: flex;
     justify-content: flex-start;
-   align-content: flex-start;
-   background-color: yellow;
+    align-content: flex-start;
+    
+}
+
+.nav_icons li{
+    margin: 0;
+    padding: 0;
 }
 
 .foot_nav, .nav_icons li {
     list-style-type: none;
+}
+
+.foot_copywrite{
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;   
+    letter-spacing: 10px;
+    border-top: 1px solid #868786 ;
 }
 
 
