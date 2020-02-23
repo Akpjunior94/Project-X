@@ -38,13 +38,11 @@
 .navigation_container__navigation ul {
   display: flex;
 }
-
 .navigation_container__navigation ul li {
   font-size: 16px;
   padding: 1.5rem;
   list-style-type: none;
 }
-
 .navigation_container__navigation ul li a:hover {
   color: red;
 }
@@ -58,6 +56,15 @@
   border-left: 1px #EEE solid;
   height: 100px;
 }
+.navigation_container__extras img {
+  margin: 20px;
+  padding: 20px;
+  width: 20px;
+  float: left;
+}
+.navigation_container__extras img a:hover {
+  background-color: red;
+}
 
 .shop {
   color: #00ff;
@@ -69,17 +76,6 @@
 
 .shop:hover {
   color: red;
-}
-
-.navigation_container__extras img {
-  margin: 20px;
-  padding: 20px;
-  width: 20px;
-  float: left;
-}
-
-.navigation_container__extras a img:hover {
-  background-color: red;
 }
 
 i {
@@ -102,7 +98,6 @@ i {
 .message {
   flex: 0 1 49%;
 }
-
 .message:hover {
   background-color: red;
 }
@@ -121,6 +116,21 @@ a {
   color: #cf3131;
   position: relative;
 }
+#video_container video {
+  height: inherit;
+  width: 100%;
+  object-fit: cover;
+}
+#video_container h1 {
+  bottom: 800px;
+  font-weight: lighter;
+  color: #868786;
+}
+#video_container p {
+  bottom: 840px;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
 
 .video_container {
   height: inherit;
@@ -128,28 +138,10 @@ a {
   opacity: 0.4;
 }
 
-#video_container video {
-  height: inherit;
-  width: 100%;
-  object-fit: cover;
-}
-
 .video_container__text {
   position: absolute;
   top: 150px;
   left: 14%;
-}
-
-#video_container h1 {
-  bottom: 800px;
-  font-weight: lighter;
-  color: #868786;
-}
-
-#video_container p {
-  bottom: 840px;
-  font-size: 1.5rem;
-  font-weight: normal;
 }
 
 /*Solution Section*/
@@ -159,7 +151,6 @@ a {
   flex-flow: row nowrap;
   padding: 100px 20%;
 }
-
 .solution_section img {
   flex: 0 1 30%;
   margin-right: 10%;
@@ -168,7 +159,6 @@ a {
 .solution_text {
   flex: 0 1 50%;
 }
-
 .solution_text h1 {
   font-size: 70px;
   text-transform: uppercase;
@@ -176,7 +166,6 @@ a {
   font-weight: lighter;
   color: #868786;
 }
-
 .solution_text p {
   text-align: justify;
   line-height: 2rem;
@@ -215,6 +204,17 @@ a {
   margin: 30px 30px;
   position: relative;
 }
+.image1 h1 {
+  position: absolute;
+  top: 280px;
+  padding: 20px;
+}
+.image1 ul {
+  position: absolute;
+  top: 360px;
+  padding: 0;
+  margin: 0;
+}
 
 .image2 {
   background-image: url(../img/medical.png);
@@ -223,6 +223,17 @@ a {
   background-color: #f6f6f6;
   margin: 30px 30px;
   position: relative;
+}
+.image2 ul {
+  position: absolute;
+  top: 360px;
+  padding: 0;
+  margin: 0;
+}
+.image2 h1 {
+  position: absolute;
+  top: 280px;
+  padding: 20px;
 }
 
 .image3 {
@@ -233,30 +244,16 @@ a {
   margin: 30px 30px;
   position: relative;
 }
-
-.image1 h1 {
-  position: absolute;
-  top: 280px;
-  padding: 20px;
-}
-
-.image1 ul, .image2 ul, .image3 ul {
-  position: absolute;
-  top: 360px;
-  padding: 0;
-  margin: 0;
-}
-
-.image2 h1 {
-  position: absolute;
-  top: 280px;
-  padding: 20px;
-}
-
 .image3 h1 {
   position: absolute;
   top: 280px;
   padding: 20px;
+}
+.image3 ul {
+  position: absolute;
+  top: 360px;
+  padding: 0;
+  margin: 0;
 }
 
 /*about_page*/
@@ -272,13 +269,22 @@ a {
   height: 100%;
   margin: 30px 30px;
 }
-
 .about_text__container p {
   color: #868786;
   line-height: 2rem;
   text-align: justify;
   letter-spacing: normal;
   padding: 15px;
+}
+.about_text__container h1 {
+  width: 150px;
+  height: 50px;
+  text-transform: uppercase;
+  font-size: 70px;
+  margin: 0px;
+  padding: 15px;
+  font-weight: lighter;
+  color: #868786;
 }
 
 span {
@@ -290,17 +296,6 @@ span {
   padding: 15px 55px;
   text-align: center;
   margin: 15px;
-}
-
-.about_text__container h1 {
-  width: 150px;
-  height: 50px;
-  text-transform: uppercase;
-  font-size: 70px;
-  margin: 0px;
-  padding: 15px;
-  font-weight: lighter;
-  color: #868786;
 }
 
 .about_image {
@@ -334,7 +329,6 @@ span {
 .info-text {
   margin-top: 80px;
 }
-
 .info-text h2 {
   text-transform: uppercase;
   font-size: 45px;
@@ -367,7 +361,6 @@ span {
   white-space: nowrap;
   overflow: hidden;
 }
-
 .animate li {
   display: inline-block;
   padding-left: 100%;
@@ -424,6 +417,9 @@ span {
   display: flex;
   flex-wrap: wrap;
 }
+.foot_nav li {
+  list-style-type: none;
+}
 
 .foot_nav_items {
   flex: 0 0 30%;
@@ -434,13 +430,9 @@ span {
   justify-content: flex-start;
   align-content: flex-start;
 }
-
 .nav_icons li {
   margin: 0;
   padding: 0;
-}
-
-.foot_nav, .nav_icons li {
   list-style-type: none;
 }
 
