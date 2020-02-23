@@ -1,0 +1,94 @@
+/* PRODUCT SECTION*/
+.product{
+    width: 75%;
+    margin:auto;
+    height: 500px;
+    background-color: rgb(231, 222, 222);
+    flex-direction: row;
+}
+
+.product_head{
+    color: #868786;
+    text-align: center;
+    font-size: 50px;
+    background-color: #fff;
+
+}
+
+.product_image{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    //align-content: center;
+
+
+}
+
+.image1{
+    background-image: url(../img/dental.png);
+    width: 279.85px;
+    height: 413.683px;
+    background-color: rgb(246, 246, 246);
+    margin: 30px 30px;
+    position: relative;
+
+    h1{
+        position: absolute;
+        top: 280px;
+        padding: 20px;
+    
+    }
+
+    ul{
+        position: absolute;
+        top: 360px;
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+.image2{
+    background-image: url(../img/medical.png);
+    width: 279.85px;
+    height: 413.683px;
+    background-color: rgb(246, 246, 246);
+    margin: 30px 30px;
+    position: relative;
+
+    ul{
+        position: absolute;
+        top: 360px;
+        padding: 0;
+        margin: 0;
+    }
+
+    h1{
+        position: absolute;
+        top: 280px;
+        padding: 20px;
+    }
+}
+
+.image3{
+    background-image: url(../img/other.png);
+    width: 279.85px;
+    height: 413.683px;
+    background-color: rgb(246, 246, 246);
+    margin: 30px 30px;
+    position: relative;
+
+    h1{
+        position: absolute;
+        top: 280px;
+        padding: 20px;
+    
+    }
+
+    ul{
+        position: absolute;
+        top: 360px;
+        padding: 0;
+        margin: 0;
+    }
+}
